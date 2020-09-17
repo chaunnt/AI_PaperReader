@@ -67,6 +67,16 @@ cmake ..
 make
 make install
 ```
+#### How to check:
+
+run command in Terminal to test detector
+
+`/darknet detector test ./cfg/coco.data ./cfg/yolov3.cfg ./yolov3.weights`
+
+run command in Terminal to test train command
+
+`darknet.exe detector train data/obj.data yolov3-tiny-obj.cfg yolov3-tiny.conv.15`
+
 
 ## 3. Application Require:
 
