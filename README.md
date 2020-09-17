@@ -9,8 +9,12 @@
 - tesseract-vie
 - tesseract-epo
 - imutil
+- darknet
 
-## 2. Install libraries:
+## 2. Install libraries & tools:
+### Tools:
+Annotation tool: VoTT v1.7.2
+`https://github.com/microsoft/VoTT/releases/tag/v1.7.2`
 
 ### Libraries:
 
@@ -51,6 +55,18 @@
 ### Vietnamese spell checker
 `sudo apt install python-dev libhunspell-dev`
 `conda install -c conda-forge hunspell`
+
+### darknet Yolov3 
+Refer: 
+https://github.com/AlexeyAB/darknet/tree/darknet_yolo_v3_optimal?fbclid=IwAR3QBifXsSIXx_vPRLiaaMpItXFevBycpIjvNMCwPlK7ezHUg8JV6bose24#how-to-compile-on-linux-using-cmake
+
+```
+mkdir build-release
+cd build-release
+cmake ..
+make
+make install
+```
 
 ## 3. Application Require:
 
