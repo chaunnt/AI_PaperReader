@@ -19,6 +19,10 @@ https://github.com/microsoft/VoTT/releases/tag/v1.7.2
 
 We can use number shortcut key (see in list classes at below) to type on keyboard for labeling faster
 
+IMPORTANT !! we will draw a rectangle to object that we want to detect only, especially focus on special features of object.
+
+For example: in this card, I use a rectangle to cover all curves and numbers of ID NUMBER. That means I want my model to focus on these curves in an image, especially, combine with numbers inside curves, it will be a feature points of this ID NUMBER => other cards / papers do not have this feature.
+
 ![Label your dataset](https://github.com/chaunnt/AI_PaperReader/blob/master/Docs/images/Screenshot%20from%202020-09-21%2009-57-59.png?raw=true)
 
 The more style of labeling dataset, the more accuracy that model will archieve. (BEWARE: careful with bad images - low resolution, blur...etc)
